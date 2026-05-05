@@ -66,6 +66,7 @@ help:
 	@echo "  make wx             -> compila UI usando wx-config"
 	@echo "  make wx_manual      -> compila UI para MinGW/Windows com WX_DIR"
 	@echo "  make run_wx         -> compila e executa parser_wx.exe com PATH ajustado"
+	@echo "  make WX_DIR=D:/MING64/wxWidgets-3.3.2 wx_manual -> exemplo Windows"
 	@echo "  make clean          -> remove binários/objetos"
 
 clean:
